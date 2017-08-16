@@ -2,7 +2,7 @@ def generate():
     first = 0
     yield first
     second = 1
-    yield first
+    yield second
     while True:
         third = first + second
         yield third
